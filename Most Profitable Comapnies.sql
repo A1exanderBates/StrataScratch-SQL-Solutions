@@ -1,5 +1,5 @@
 /*
-Most Profitable Companies - Medium Difficulty (easy imo)
+Most Profitable Companies - Medium Difficulty (should be easy rating in my opinion)
 
 Find the 3 most profitable companies in the entire world.
 
