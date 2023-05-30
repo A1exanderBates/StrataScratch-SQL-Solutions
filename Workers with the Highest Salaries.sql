@@ -1,3 +1,7 @@
+# Workers With The Highest Salaries - Medium
+### You have been asked to find the job titles of the highest-paid employees.
+### Your output should include the highest-paid title or multiple titles with the same salary.
+
 with workers_ranked as (
   select
     worker_id,
