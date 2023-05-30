@@ -16,6 +16,6 @@ with workers_ranked as (
 select
     t.worker_title,
     w.salary
-from ranked_table as w
-left join title as t on w.worker_id = t.worker_ref_id
+from workers_ranked as w
+inner join title as t on w.worker_id = t.worker_ref_id
 where rank_col = 1;
