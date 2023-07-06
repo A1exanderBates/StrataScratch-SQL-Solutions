@@ -1,4 +1,5 @@
-## Meta/Facebook - Difficulty Medium
+/*
+Meta/Facebook - Difficulty Medium
 
 What is the overall friend acceptance rate by date? Your output should have the rate of acceptances by the date the request was sent. Order by the earliest date to latest.
 
@@ -11,7 +12,8 @@ user_id_receiver:varchar
 date:datetime
 action:varchar
 
-```
+*/
+
 with sent as (
     select *
     from fb_friend_requests
@@ -33,4 +35,3 @@ from sent t1 left join accepted t2 on
 group by t1.date
 order by date asc;
 
-```
